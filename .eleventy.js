@@ -1,7 +1,13 @@
 module.exports = (eleventyConfig) => {
-    eleventyConfig.setTemplateFormats(["html", "css", "png"]);
-    eleventyConfig.addPassthroughCopy("styles");
-    eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.setTemplateFormats([
+        "html",
+        "css",
+        "png",
+        "svg",
+        "ico",
+        "pdf",
+    ]);
+    eleventyConfig.addPassthroughCopy({ "src/images/favicons": "/" });
 
     return {
         markdownTemplateEngine: "njk",
