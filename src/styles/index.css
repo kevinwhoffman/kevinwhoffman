@@ -99,7 +99,7 @@ ol {
 }
 
 .section--accent {
-    background-color: var(--cyan9);
+    background-color: var(--cyan10);
     background-image: url("../images/line-grid.png");
     background-size: 32px;
     color: white;
@@ -266,11 +266,6 @@ ol {
     color: white;
 }
 
-.section--dark a:hover,
-.section--accent a:hover {
-    color: var(--cyan4);
-}
-
 .colophon {
     line-height: 2;
 }
@@ -285,18 +280,19 @@ ol {
 }
 
 .button {
-    background-color: var(--cyan9);
+    background-color: var(--cyan10);
     border-radius: 9999px;
     border: 0.125rem solid white;
+    color: white;
     line-height: 1.5;
     padding: 1rem 1.5rem;
     text-decoration: none;
 }
 
 .button:hover {
-    background-color: var(--cyan10);
+    background-color: var(--cyan11);
 }
 
 .button:active {
-    background-color: var(--cyan11);
+    background-color: var(--cyan12);
 }
