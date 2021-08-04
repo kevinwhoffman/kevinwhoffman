@@ -5,11 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title or metadata.title }}</title>
         <meta name="description" content="{{ description or metadata.description }}">
+
+        <!-- Favicons -->
         <link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
         <link rel="icon" href="/icon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+        <!-- / Favicons -->
+
+        <!-- Site styles -->
         <link rel="stylesheet" href="{{ '/styles/index.css' | url }}">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <!-- / Google Fonts -->
+
+        <!--
+        Twemoji
+        Copyright 2020 Twitter, Inc and other contributors
+        Code licensed under the MIT License: http://opensource.org/licenses/MIT
+        Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+        -->
         <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+
+        <!-- Fathom - beautiful, simple website analytics -->
+        <script src="https://cdn.usefathom.com/script.js" data-site="KZPNYEST" defer></script>
+        <!-- / Fathom -->
     </head>
     <body>
         {{ content | safe }}
