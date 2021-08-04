@@ -1,3 +1,5 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 module.exports = (eleventyConfig) => {
     eleventyConfig.setTemplateFormats([
         "html",
@@ -8,6 +10,7 @@ module.exports = (eleventyConfig) => {
         "pdf",
     ]);
     eleventyConfig.addPassthroughCopy({ "src/images/favicons": "/" });
+    eleventyConfig.addPlugin(pluginRss);
 
     return {
         markdownTemplateEngine: "njk",
