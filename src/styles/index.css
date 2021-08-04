@@ -153,6 +153,47 @@ ol {
 .hero__icon {
     font-size: 3rem;
     line-height: 1;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: swing;
+    animation-timing-function: ease-out;
+    transform-origin: bottom center;
+}
+
+.hero__icon:hover .emoji {
+    animation-duration: 1s;
+    animation-name: swing;
+    animation-timing-function: ease-out;
+    transform-origin: bottom center;
+}
+
+@media (prefers-reduced-motion) {
+    .hero__icon,
+    .hero__icon:hover .emoji {
+        animation: none;
+    }
+}
+
+@keyframes swing {
+    20% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    40% {
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    to {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
 }
 
 .hero__heading {
