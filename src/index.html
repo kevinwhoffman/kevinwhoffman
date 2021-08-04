@@ -1,0 +1,74 @@
+---
+layout: layouts/base.html
+title: Kevin W. Hoffman - Product Manager, Designer, Developer
+heading: Kevin W. Hoffman - Product Manager, Designer, Developer
+---
+<main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <section class="section section--accent">
+        <div class="container">
+            <div class="hero stack">
+                <span class="hero__icon emoji">👋</span>
+                <h1 class="hero__heading">
+                    Hi, I’m Kevin—a designer and developer turned product manager.
+                </h1>
+                <p class="hero__description">I'm based in Pittsburgh, Pennsylvania and looking for remote work in a product management role. On this site you'll find the principles and past work that influence my approach to product management today.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section section--light">
+        <div class="container stack stack--lg">
+            <div class="section__intro stack stack--sm">
+                <h2 class="section__heading">My Principles of Product Management</h2>
+            </div>
+            <ul class="principles">
+                {% for principle in principles %}
+                <li class="principle">
+                    <div class="stack">
+                        <span class="principle__icon">{{principle.icon}}</span>
+                        <div class="stack stack--sm">
+                            <h3 class="principle__heading">{{principle.title | safe}}</h2>
+                            <p class="principle__description">{{principle.description | safe}}</p>
+                        </div>
+                    </div>
+                    {% if principle.ctaText %}
+                        <a class="principle__cta" href="{{principle.ctaUrl}}" target="_blank">{{principle.ctaText | safe}} ↗</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+    <section class="section section--accent">
+        <div class="container stack">
+            <div class="section__intro stack stack stack--center">
+                <h2 class="section__heading">Ready to work together?</h2>
+                <p class="section__description">If this sounds like the type of product management that your team needs, then let's chat.</p>
+                <p>
+                    <a href="https://twitter.com/kevinwhoffman">Message me on Twitter</a> or
+                    <a href="mailto:kevin@kevinwhoffman.com">Send me an email</a>
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer section section--dark">
+    <div class="container">
+        <p class="colophon">
+            Published with 💛 from Pittsburgh, PA<br>
+            Built with <a href="https://www.11ty.dev/">Eleventy</a>, <a href="https://twemoji.twitter.com/">Twemoji</a>, and old-fashioned CSS<br>
+            &copy;&nbsp;2021 Kevin W. Hoffman
+        </p>
+    </div>
+</footer>
+<script>
+    twemoji.parse(document.body, {
+        folder: "svg",
+        ext: ".svg"
+    });
+</script>
+<!--
+Twemoji
+Copyright 2020 Twitter, Inc and other contributors
+Code licensed under the MIT License: http://opensource.org/licenses/MIT
+Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+-->

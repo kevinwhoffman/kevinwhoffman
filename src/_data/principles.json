@@ -1,0 +1,60 @@
+[
+  {
+    "icon": "🗣 💬 👂",
+    "title": "Make every voice heard.",
+    "description": "Every team member—regardless of title, position, or department—can contribute to the shaping of a product if given the opportunity. I put systems in place that empower employees and users to provide feedback that is acknowledged and processed in a meaningful way. Feedback isn't a one-way street; it's a conversation.",
+    "ctaText": "Speaking of feedback systems, check out the one I implemented as Product Manager for GiveWP",
+    "ctaUrl": "https://feedback.givewp.com/feature-requests"
+  },
+  {
+    "icon": "⏰ 🔄 🔭",
+    "title": "Manage predictable development cycles with a fixed time and variable scope.",
+    "description": "Pushing boundaries means doing work that hasn’t been done before, which is difficult to estimate. I work with stakeholders to set a fixed appetite that defines how much time and attention a problem deserves. In turn, the appetite informs decisions and trade-offs made throughout the cycle.",
+    "ctaText": "Read one of my feature pitches for GiveWP to see how I approach appetite and scope.",
+    "ctaUrl": "#"
+  },
+  {
+    "icon": "🎨 ♿️ 🏁",
+    "title": "Design accessibility into the product from start to finish.",
+    "description": "From ideation through design, programming, QA, and beyond, I advocate for accessibility at every stage of development. I've made it a priority to learn accessibility guidelines for keyboard navigation, screen readers, and other assistive tech in use today."
+  },
+  {
+    "icon": "☁️ ↔️ 🌱",
+    "title": "Provide value in both the clouds and the dirt.",
+    "description": "Product management requires the right balance of big, visionary ideas that move an industry forward and tiny, practical details that affect everyday use. I put the time in as a practitioner to understand how a product works for first-timers, power users, and everyone in between."
+  },
+  {
+    "icon": "⌛️ 🌌 🤯",
+    "title": "Create the time and space for deep work to occur.",
+    "description": "Impactful work gets done when teams are given the time, space, and trust necessary to think critically about the job they’ve been hired to do. Successful product management is knowing when to delegate, when to collaborate, and when to get out of the way."
+  },
+  {
+    "icon": "✍️ 🖼 🎞",
+    "title": "Take pride in written and visual communication.",
+    "description": "Asynchronous communication is more important than ever in remote work. I combine long-form pitches, fat marker sketches, diagrams, and videos that provide enough guidance to be helpful and enough freedom for my team do what they do best.",
+    "ctaText": "Click through this fat marker prototype to see how I communicate a vision early on in the process.",
+    "ctaUrl": "#"
+  },
+  {
+    "icon": "🤔 📖 💡",
+    "title": "Help teams understand the <em>why</em> behind their work.",
+    "description": "Team members should understand not just <em>what</em> they are building, but <em>why</em> they are building it. To achieve this clarity, I begin each feature request or bug report with a concise job story that describes the situation, motivation, and expected outcome so that new contributors can get up to speed quickly.",
+    "ctaText": "Learn more about Job Stories in this article by Alan Klement on the Intercom Blog",
+    "ctaUrl": "https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/"
+  },
+  {
+    "icon": "🚦 🧐 📊",
+    "title": "Update status frequently and transparently.",
+    "description": "Team members and stakeholders should have a clear understanding of a project’s status without having to ask. I make it easy to see what’s in motion, what’s complete, and what’s blocking progress at any moment. This allows help to arrive quickly when things are stuck and keeps teams running smoothly when everyone is in a groove."
+  },
+  {
+    "icon": "📋 📢 👥",
+    "title": "Lead productive meetings when meetings makes sense.",
+    "description": "As a remote worker for nearly a decade, I enjoy asynchronous communication, but I also understand that there’s no substitute for a productive meeting. When a meeting is necessary, I provide an agenda and materials beforehand so that we make the most of everyone’s time together."
+  },
+  {
+    "icon": "🙌 🚀 🥳",
+    "title": "Work closely with other teams to ensure a successful launch.",
+    "description": "Marketing, messaging, and go-to-market plans are just as important to the success of a product as design and programming. That’s why I schedule touchpoints with other teams and stakeholders at key moments throughout a development cycle so everyone knows what's changing and when."
+  }
+]
