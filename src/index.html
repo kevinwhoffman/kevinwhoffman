@@ -1,25 +1,27 @@
 ---
 layout: layouts/base.html
 title: Kevin W. Hoffman - Product Manager, Designer, Developer
-heading: Kevin W. Hoffman - Product Manager, Designer, Developer
 description: Kevin is a product manager with a background in web design and development. He is currently looking for a remote position as a product manager.
+hero:
+    icon: 👋
+    heading: Hi, I’m Kevin—a designer and developer turned product manager.
+    description: I'm based in Pittsburgh, Pennsylvania and currently looking for a remote position as a product manager. On this site you''ll find the principles and past work that influence my approach to product management today.
+principlesHeading: My Principles of Product Management
 ---
 <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
     <section class="section section--accent">
         <div class="container">
             <div class="hero stack">
-                <span class="hero__icon emoji">👋</span>
-                <h1 class="hero__heading">
-                    Hi, I’m Kevin—a designer and developer turned product manager.
-                </h1>
-                <p class="hero__description">I'm based in Pittsburgh, Pennsylvania and currently looking for a remote position as a product manager. On this site you'll find the principles and past work that influence my approach to product management today.</p>
+                <span class="hero__icon emoji">{{ hero.icon }}</span>
+                <h1 class="hero__heading">{{ hero.heading }}</h1>
+                <p class="hero__description">{{ hero.description }}</p>
             </div>
         </div>
     </section>
     <section class="section section--light">
         <div class="container stack stack--lg">
             <div class="section__intro stack stack--sm">
-                <h2 class="section__heading">My Principles of Product Management</h2>
+                <h2 class="section__heading">{{ principlesHeading }}</h2>
             </div>
             <ul class="principles">
                 {% for principle in principles %}
