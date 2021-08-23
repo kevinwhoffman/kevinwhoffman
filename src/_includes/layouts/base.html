@@ -9,8 +9,6 @@
        <!-- Social Sharing -->
         <meta property="og:title" content="{{ title or metadata.title }}">
         <meta property="og:description" content="{{ description or metadata.description }}">
-        <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
-        <meta property="og:url" content="http://euro-travel-example.com/index.htm">
         <meta property="og:image" content="{{ metadata.image | url | absoluteUrl(metadata.url) }}">
         <meta property="og:url" content="{{ post.url | url | absoluteUrl(metadata.url) }}">
         <meta name="twitter:card" content="summary_large_image">
